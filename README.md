@@ -6,8 +6,8 @@
   - `> list vol`
   - `> sel vol #`
   - `> assign letter=C`
-- `..Recovery\RecoveryPackage\ASUS.swm`
-  - `dism /apply-image /imagefile:path/to/ASUS.swm /index:1 /applydir:C:\`
+- `E:\Recovery\RecoveryImage\ASUS.swm`
+  - `dism /apply-image /imagefile:E:\Recovery\RecoveryImage\ASUS.swm /index:1 /applydir:C:\`
 - `bcdboot C:\Windows`
 - `bcdedit ???`
 
