@@ -12,3 +12,5 @@
 - `bcdedit ???`
 
 ### https://www.reddit.com/r/ZephyrusG15/comments/rn75ps/create_bootable_usb_from_recovery_partition/
+- https://www.tenforums.com/tutorials/103340-dism-split-install-wim-file.html
+- https://www.tenforums.com/tutorials/95941-diskpart-how-partition-gpt-disk.html
