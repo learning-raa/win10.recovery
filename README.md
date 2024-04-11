@@ -9,4 +9,4 @@
 - `..Recovery\RecoveryPackage\ASUS.swm`
   - `dism /apply-image /imagefile:path/to/ASUS.swm /index:1 /applydir:C:\`
 - `bcdboot C:\Windows`
-- 
+- `bcdedit ???`
