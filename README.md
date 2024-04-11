@@ -1,5 +1,4 @@
-# win10.recovery
-
+# WinRE
 
 ### https://www.reddit.com/r/ZephyrusG14/comments/o4tteb/asus_winre_after_clean_install/
 - `diskpart`
@@ -14,3 +13,9 @@
 ### https://www.reddit.com/r/ZephyrusG15/comments/rn75ps/create_bootable_usb_from_recovery_partition/
 - https://www.tenforums.com/tutorials/103340-dism-split-install-wim-file.html
 - https://www.tenforums.com/tutorials/95941-diskpart-how-partition-gpt-disk.html
+
+---
+
+# Linux
+- `mkfs.ntfs /dev/sda2 -f -L OS`
+- `wimapply install.wim 1 /dev/sda2`
