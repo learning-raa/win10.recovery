@@ -10,3 +10,5 @@
   - `dism /apply-image /imagefile:path/to/ASUS.swm /index:1 /applydir:C:\`
 - `bcdboot C:\Windows`
 - `bcdedit ???`
+
+### https://www.reddit.com/r/ZephyrusG15/comments/rn75ps/create_bootable_usb_from_recovery_partition/
