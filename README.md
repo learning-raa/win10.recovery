@@ -17,5 +17,6 @@
 ---
 
 # Linux
+(apt intall wimtools)
 - `mkfs.ntfs /dev/sda2 -f -L OS`
 - `wimapply install.wim 1 /dev/sda2`
