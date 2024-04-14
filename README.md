@@ -23,6 +23,7 @@
 
 # PowerShell cleaner
 - `Get-AppxPackage | Select Name`
+- `Get-AppxProvisionedPackage -online | Remove-AppxProvisionedPackage –online`
 - `Get-AppxPackage -allusers *XXXX* | Remove-AppxPackage
   - .YourPhone
   - .Getstarted
@@ -45,4 +46,9 @@
   - .WindowsMaps
   - .WindowsSoundRecorder
   - .WebpImageExtension
+  - .SkypeApp
+  - .DolbyAccess
+  - .MicrosoftEEdge.Beta
+  - .WindowsAlarms
+  - .MicrosoftSolitaireCollection
   - 
