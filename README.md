@@ -51,4 +51,11 @@
   - .MicrosoftEEdge.Beta
   - .WindowsAlarms
   - .MicrosoftSolitaireCollection
+  - .StorePurchaseApp
+  - .MicrosoftStickyNotes
+  - .HEVCVideoExtension
+  - .HEIFImageExtension
+  - .VP9VideoExtensions
+  - .WebMediaExtensions
+  - .Whiteboard
   - 
