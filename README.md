@@ -58,4 +58,5 @@
   - .VP9VideoExtensions
   - .WebMediaExtensions
   - .Whiteboard
+  - .WindowsStore
   - 
