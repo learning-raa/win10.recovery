@@ -22,7 +22,7 @@
 - `wimapply install.wim 1 /dev/sda2 [--check --strict-acls]`
 
 # PowerShell cleaner
-- `Get-AppxPackage | Select Name`
+- `Get-AppxPackage | Select Name,PackageFullName`
 - `Get-AppxProvisionedPackage -online | Remove-AppxProvisionedPackage –online`
 - `Get-AppxPackage -allusers *XXXX* | Remove-AppxPackage
   - .YourPhone
