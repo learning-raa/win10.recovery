@@ -20,3 +20,29 @@
 (apt intall wimtools)
 - `mkfs.ntfs /dev/sda2 -f -L OS`
 - `wimapply install.wim 1 /dev/sda2 [--check --strict-acls]`
+
+# PowerShell cleaner
+- `Get-AppxPackage | Select Name`
+- `Get-AppxPackage -allusers *XXXX* | Remove-AppxPackage
+  - .YourPhone
+  - .Getstarted
+  - .GetHelp
+  - .GamingServices
+  - .MixedReality
+  - .GamingApp
+  - .Microsoft3DViewer
+  - .Messaging
+  - .BingWeather
+  - .Windows.Photos
+  - .Wallet
+  - .WindowsCamera
+  - .WindowsFeedBackHub
+  - .ZuneVideo
+  - .ZuneMusic
+  - .People
+  - .Office.OneNote
+  - .MicrocoftOfficeHub
+  - .WindowsMaps
+  - .WindowsSoundRecorder
+  - .WebpImageExtension
+  - 
