@@ -22,6 +22,11 @@
 - `wimapply install.wim 1 /dev/sda2 [--check --strict-acls]`
 
 # PowerShell cleaner
+- `Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online`
+- `Get-AppxPackage -AllUsers | Remove-AppxPackage`
+
+
+
 - `Get-AppxPackage | Select Name,PackageFullName`
 - `Get-AppxProvisionedPackage -online | Remove-AppxProvisionedPackage –online`
 - `Get-AppxPackage -allusers *XXXX* | Remove-AppxPackage
